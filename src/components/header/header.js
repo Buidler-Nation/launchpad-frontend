@@ -50,10 +50,10 @@ export const Header = () => {
                 <CustomLink to="/projects">Projects</CustomLink>
               </li>
             <li className="nav-item me-4" key={2}>
-              <a className="nav-link" href = "https://www.buidlersdao.com/" target="_blank">Buidler's Finance</a>
+              <a className="nav-link" href = "https://www.buidlersnation.com/" target="_blank">Buidler's Finance</a>
             </li>
             <li className="nav-item me-4" key={3}>
-              <a className="nav-link" href = "https://testapp.buidlersdao.com/#/" target = "_blank">Stake BDN</a>
+              <a className="nav-link" href = "https://testapp.buidlersnation.com/#/dashboard" target = "_blank">Stake BDN</a>
             </li>
           </ul>
         </div>
