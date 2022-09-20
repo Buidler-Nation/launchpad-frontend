@@ -1,0 +1,237 @@
+.project-details-wrapper {
+  .details {
+    background: rgba(230, 230, 230, 0.05);
+    border: 1px solid #3e46f3;
+    border-radius: 22px;
+    .icon {
+      width: 75px;
+      height: 75px;
+      //background: rgba(255, 255, 255, 0.24);
+      background: #FFFFFF;
+      border-radius: 22px;
+      display: inline-block;
+      padding: 0px;
+    }
+    .social-links {
+      height: 35px;
+      width: 35px;
+      background: rgba(255, 255, 255, 0.19);
+      color: white;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      border-radius: 50%;
+      justify-content: center;
+    }
+    .project-name {
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 27px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+    }
+    .description {
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+    }
+  }
+  .additional-details {
+    .graph {
+      margin-right: 3rem;
+      width: 70%;
+      border-radius: 22px;
+      img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #3e46f3;
+        border-radius: 22px;
+      }
+    }
+    .screening {
+      background: rgba(230, 230, 230, 0.05);
+      border: 1px solid #3e46f3;
+      border-radius: 22px;
+      width: calc(30% - 3rem);
+
+      > div {
+        > p {
+          &:nth-child(1) {
+            color: white;
+            font-weight: bold;
+            font-size: 2em;
+            letter-spacing: 0.1em;
+            line-height: 1em;
+            margin-bottom: 0.8em;
+          }
+        }
+      }
+    }
+  }
+
+  .progress-container {
+    .progress-details span {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 32px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+    }
+    .graph {
+      background: rgba(230, 230, 230, 0.05);
+      border-radius: 22px;
+      margin-right: 3rem;
+      width: 70%;
+      border: 1px solid #3e46f3;
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+
+      .MuiLinearProgress-root {
+        height: 18px;
+        border-radius: 23px;
+        background: rgba(165, 122, 255, 0.39);
+        .MuiLinearProgress-bar {
+          background-color: #6016fc;
+          border-radius: 23px;
+        }
+      }
+    }
+    .screening {
+      background: rgba(230, 230, 230, 0.05);
+      border-radius: 22px;
+      border: 1px solid #3e46f3;
+      width: calc(30% - 3rem);
+      .investment-details {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 32px;
+        letter-spacing: 0.1em;
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.65);
+      }
+      .connect-button {
+        background: #6016fc;
+        border-radius: 9px;
+        justify-content: center;
+        height: 50px;
+        p {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 18px;
+          text-align: center;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+      }
+      .MuiButton-root {
+        width: 100%;
+        background: #6016fc;
+        border-radius: 9px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        margin-top: 1rem;
+        color: #ffffff;
+      }
+    }
+    p {
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+    }
+  }
+
+  .table-section {
+    background: rgba(230, 230, 230, 0.05);
+    border: 1px solid #3e46f3;
+    border-radius: 22px;
+    .tabs {
+      border-bottom: 1px solid rgba(96, 22, 252, 0.28);
+      button {
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+      }
+      .MuiTabs-indicator {
+        background: #3e46f3;
+      }
+    }
+    .spacer {
+      width: 2rem;
+    }
+    table {
+      width: 100%;
+      tr {
+        height: 34px;
+        border: 0.5px solid rgba(255, 255, 255, 0.2);
+      }
+      thead {
+        tr {
+          border-top-left-radius: 16px;
+          border-top-right-radius: 16px;
+          border: 0.5px solid transparent;
+        }
+      }
+      td {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 0.5rem 1rem;
+        width: 50%;
+        color: #ffffff;
+      }
+      th {
+        background: rgba(255, 255, 255, 0.1);
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #ffffff;
+        padding: 0.5rem 1rem;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+      }
+    }
+  }
+  .outline-input {
+    width: 100%;
+    input {
+      color: white !important;
+      padding: 0.5rem 1rem;
+    }
+    .MuiButtonBase-root {
+      font-style: normal !important;
+      font-weight: 400 !important;
+      font-size: 12px !important;
+      line-height: 12px !important;
+      color: #ffffff !important;
+    }
+    .MuiOutlinedInput-notchedOutline {
+      border: 1px solid #6016fc !important;
+      border-radius: 9px;
+    }
+    legend {
+      display: none;
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .graph {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+  .screening {
+    width: 100% !important;
+  }
+}

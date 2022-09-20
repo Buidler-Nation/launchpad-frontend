@@ -1,0 +1,68 @@
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+}
+
+footer .logo {
+  height: 100px;
+  width: 100px;
+  background-image: url("../../assets/svg/B-N.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 32px;
+}
+footer .list-group-item {
+  background: transparent;
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  line-height: 32px;
+  padding: 1rem;
+  margin: 0;
+}
+footer .whitepaper-download {
+  width: 150px;
+  height: 175px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .whitepaper-download:hover {
+  color: white;
+}
+footer .whitepaper-download img {
+  width: 70px;
+  height: 85px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  footer.justify-content-between {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  footer.justify-content-between > * {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,162 @@
+@import "../../index.scss";
+
+.container{
+  font-family: 'Poppins', sans-serif;
+}
+
+.tab-div {
+  border-radius: 1em;
+  background: rgba(100, 224, 196, 0.15);
+}
+
+.tab-root {
+  margin-bottom: 5em;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+ul.nav {
+  li {
+    padding-inline: 1.2em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-radius: 1em;
+
+    &:hover {
+      background: grey;
+    }
+  }
+
+  li.active {
+    background: #3e46f3;
+  }
+}
+
+.card-root {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(230, 230, 230, 0.05);
+  max-width: 100%;
+  border: 1px solid #3e46f3;
+  border-radius: 2em;
+  height: 600px;
+}
+
+.img {
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  width: 100%;
+  height: 200px;
+}
+
+.icons {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.social-links{
+  font-size: 25px;
+  color: white;
+}
+
+.tabs {
+  button {
+    font-size: 12px;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+
+  .MuiTabs-indicator {
+    background: #3e46f3;
+  }
+}
+
+.content {
+  margin: 1em;
+
+  > div {
+    > p {
+      &:nth-child(1) {
+        color: white;
+        font-weight: bold;
+        font-size: 2em;
+        letter-spacing: 0.1em;
+        line-height: 1em;
+        margin-bottom: 0.8em;
+      }
+    }
+  }
+}
+
+.content-spacing {
+  margin-bottom: 1.6em;
+}
+
+.content-text-title {
+  color: white;
+  font-weight: 100;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  line-height: 0.8em;
+}
+
+.content-time {
+  color: #3e46f3;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  line-height: 0.8em;
+}
+
+.content-text {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  line-height: 0.8em;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.research {
+  width: 70%;
+  border: 0.5px solid;
+  line-height: 2.5;
+  padding: 0 2em;
+  font-size: 1em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(88,28,242);
+  &:hover {
+    background-color: darkviolet;
+  }
+}
+
+.show-more-btn{
+  font-size: 1.2em;
+  color: white;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  ul.nav {
+    li {
+      padding-inline: 1.2em;
+    }
+  }
+}
